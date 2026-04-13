@@ -84,7 +84,7 @@ project/
 ├── Source_Material/
 │   ├── Unprocessed/    ← DROP YOUR PDFs HERE
 │   └── Processed/      ← Script moves files here after successful conversion
-├── The_One_Ring/       ← Output Markdown files appear here
+├── output/             ← Output Markdown files appear here
 │   └── <BookName>/
 │       ├── <BookName>.md
 │       └── <images>.jpeg
@@ -147,10 +147,10 @@ For a typical 56-page RPG rulebook, expect the full run to take **8–15 minutes
 
 The script includes **duplicate protection**. If a PDF has already been converted, it will be skipped automatically:
 
-- If `The_One_Ring/<BookName>/` already exists → **SKIP**
+- If `output/<BookName>/` already exists → **SKIP**
 - If `Source_Material/Processed/<BookName>.pdf` already exists → **SKIP**
 
-To re-process a file, delete its output folder from `The_One_Ring/` and move the PDF back to `Source_Material/Unprocessed/`.
+To re-process a file, delete its output folder from `output/` and move the PDF back to `Source_Material/Unprocessed/`.
 
 ---
 

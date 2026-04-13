@@ -63,7 +63,7 @@ def main():
     BASE_DIR = Path(__file__).parent.resolve()
     UNPROCESSED_DIR = BASE_DIR / "Source_Material" / "Unprocessed"
     PROCESSED_DIR = BASE_DIR / "Source_Material" / "Processed"
-    OUTPUT_BASE_DIR = BASE_DIR / "The_One_Ring"
+    OUTPUT_BASE_DIR = BASE_DIR / "output"
 
     # Make sure folders exist
     UNPROCESSED_DIR.mkdir(parents=True, exist_ok=True)

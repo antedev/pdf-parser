@@ -15,8 +15,9 @@ Source_Material/Processed/*.pdf
 # ==========================================
 # Converted Output (Markdown + Images)
 # ==========================================
-The_One_Ring/*
-!The_One_Ring/.gitkeep
+output/*
+!output/.gitkeep
+The_One_Ring/
 
 # ==========================================
 # Python
